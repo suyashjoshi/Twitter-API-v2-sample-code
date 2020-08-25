@@ -52,11 +52,13 @@ npm install oauth-1.0a
 ```
 
 ## Java environment set up
-If you use Homebrew, you can install a Java runtime using:
+Make sure you have Oracle JDK or OpenJDK installed version 8.0 or above in your machine.
+If you use Homebrew, you can install by issuing the following command:
 
 ```bash
 brew cask install java
 ```
+Then make sure all Java libraries being used are imported into your project, directly using using build tools such as Maven/Gradle/ANT etc. Finally compile and code and run to see the results printed in the terminal.
 
 ## Prerequisites
 
