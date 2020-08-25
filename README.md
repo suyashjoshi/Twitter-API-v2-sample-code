@@ -52,7 +52,7 @@ npm install oauth-1.0a
 ```
 
 ## Java environment set up
-Make sure you have Oracle JDK/OpenJDK version 8.0 or above isntalled on your machine, otherwise on mac you if you use Homebrew, you can install a Java runtime using:
+Make sure you have Oracle JDK/OpenJDK version 8.0 or above installed on your machine, otherwise on mac you if you use Homebrew, you can install a Java runtime using:
 
 ```bash
 brew cask install java
