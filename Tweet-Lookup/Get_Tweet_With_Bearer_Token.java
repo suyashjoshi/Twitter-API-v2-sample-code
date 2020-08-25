@@ -23,16 +23,16 @@ import java.util.Map;
 /*
  * Sample code to demonstrate the use of the v2 Tweets endpoint
  * */
-public class TweetsDemo {
+public class Get_Tweet_With_Bearer_Token {
 
   // To set your enviornment variables in your terminal run the following line:
   // export 'BEARER_TOKEN'='<your_bearer_token>'
 
   public static void main(String args[]) throws IOException, URISyntaxException {
-    String bearerToken = System.getenv("BEARER_TOKEN")
-    if (null != bearerToken) {
+    final String BEARER_TOKEN = System.getenv("BEARER_TOKEN");
+    if (null != BEARER_TOKEN) {
       //Replace comma separated ids with Tweets Ids of your choice
-      String response = getTweets("1138505981460193280,1261326399320715264");
+      String response = getTweets("1278747501642657792", BEARER_TOKEN);
       System.out.println(response);
     } else {
       System.out.println("There was a problem getting you bearer token. Please make sure you set the BEARER_TOKEN environment variable");
